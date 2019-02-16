@@ -1,6 +1,6 @@
 
 # Soundcloud Artist's Top-Tracks 
-# Get Soundcloud UserID from UserprofileID
+
 Soundcloud stores a page called "Top-Tracks" for some userprofiles.
 
 ![](toptracks.PNG)
@@ -9,6 +9,7 @@ Why does soundcloud.com does not provide to their customers a direct link to the
 
 Using soundcloud a lot discovering new music a wanted to simply get the link to it as reason for creating this repo. Please feel free to fork me and/or contact me to keep up the development of this overdue feature.
 
+# Get Soundcloud UserID from UserprofileID
 *Convert Soundcloud UserprofileID to UserID*
 
       http://soundcloud.com/userprofileID
