@@ -25,6 +25,9 @@ The job is done by getting the soundcloud `userprofileID` from the `userID` thro
 After a few tries I ended up with an PowerShell-script and my first .net-forms. 
 I would like to have an Browser-Addon for that, which displays the top-tracks link on top of each profile page. Let me know if you made some cool stuff :) I would appreciate it.
 
-PS: ExecutionPolicy off
+# Usage
+
+      Run run.ps1 inside powershell or use the .ink file after changing its destination path to gui.ps1. 
+      For proper script execution check your ExecutionPolicy.
 
 [toptracks.PNG]:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAn0AAAJXCAYAAADmROKdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAP+lSURBVHhe7L0JuG1HWeZvO7Z2tyLOigJBbFu7aUVRZpAxCYQhEAZlhgwEEqYAxgAJgdxzCSQhISDIIJMQRGaV4ASNAiJTHJgUWtQoKCLEoRP+6Kn/+32r3lpVX32r9lp773tzbm6d53mfd/9qrbXPPnufk
