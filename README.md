@@ -8,11 +8,12 @@ Why does soundcloud.com does not provide to their customers a direct link to the
 
 Using soundcloud a lot discovering new music a wanted to simply get the link to it as reason for creating this repo. Please feel free to fork me and/or contact me to keep up the development of this overdue feature.
 
-*Convert Soundcloud UserprofileID to UserID* 
-The trick is to get the Soundcloud UserprofileID from the UserID trhough an http call to the soundcloud user's webpage.
+*Convert Soundcloud UserprofileID to UserID*
 
       http://soundcloud.com/userprofileID
       http://www.soundcloud.com/discover/sets/introducing:userID
+
+The job is done by getting the soundcloud `userprofileID` from the `userID` through an http call to the soundcloud user's webpage.
       
   For example this crab is working
 
@@ -20,7 +21,7 @@ The trick is to get the Soundcloud UserprofileID from the UserID trhough an http
 >       (2) Right-Click -> view:source -> search for string "user:<userID>" -> concat string to top-track url
 >       (3) http://www.soundcloud.com/discover/sets/introducing:44297755
 
-After a few tries I ended up with an PowerShell script and my first .net-Forms. 
+After a few tries I ended up with an PowerShell-script and my first .net-forms. 
 I would like to have an Browser-Addon for that, which displays the top-tracks link on top of each profile page. Let me know if you made some cool stuff :) I would appreciate it.
 
 PS: ExecutionPolicy off
