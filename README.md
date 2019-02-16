@@ -5,17 +5,18 @@ Soundcloud stores a page called "Top-Tracks" for some userprofiles.
 
 ![](toptracks.PNG)
 
-Why does soundcloud.com does not provide to their customers a direct link to the top-tracks of any soundcloud-userprofile, you only get a few suggestions based on your profile at the soundcould landing page. 
+Why Soundcloud is not providing to their customers a possibility to access the top-tracks of any soundcloud-userprofile?  You only see them as a few suggestions based on your profile at the soundcould landing page. 
 
-Using soundcloud a lot discovering new music a wanted to simply get the link to it as reason for creating this repo. Please feel free to fork me and/or contact me to keep up the development of this overdue feature.
+Using soundcloud a lot discovering new music I wanted to quickly get the link to an user's top-track.
+Please feel free to fork me and/or contact me to keep up the development of this overdue feature.
 
-# Get Soundcloud UserID from UserprofileID
-*Convert Soundcloud UserprofileID to UserID*
+# Get the top-tracks url 
+*Convert Soundcloud userURL to UserID*
 
-      http://soundcloud.com/userprofileID
+      http://soundcloud.com/userURL
       http://www.soundcloud.com/discover/sets/introducing:userID
 
-The job is done by getting the soundcloud `userprofileID` from the `userID` through an http call to the soundcloud user's webpage.
+The job is done by getting the soundcloud `userID` from the `userURL` through an http call to the soundcloud user's webpage.
       
   For example this crab is working
 
